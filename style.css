@@ -292,8 +292,8 @@ body:hover .cursor-outline {
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    grid-template-columns: auto auto;
+    gap: 30px;
     align-items: center;
 }
 
@@ -1134,4 +1134,5 @@ section {
     .contact-form {
         padding: 30px 20px;
     }
+
 }
