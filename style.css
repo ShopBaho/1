@@ -281,7 +281,7 @@ body:hover .cursor-outline {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +292,7 @@ body:hover .cursor-outline {
 
 .hero-content {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     gap: 30px;
     align-items: center;
 }
@@ -1136,3 +1136,4 @@ section {
     }
 
 }
+
